@@ -63,10 +63,10 @@ async function ensureSetup() {
         'setup-hooks.js'
       ];
       
-      console.log('📥 Downloading scripts...');
-      for (const script of scripts) {
-        await downloadScript(script);
-      }
+      console.log('📥 Downloading scripts in parallel...');
+      // Download all scripts simultaneously for speed
+      const downloadPromises = scripts.map(script => downloadScript(script));
+      await Promise.all(downloadPromises);
       
       console.log('✅ Miyagi setup complete!');
       
