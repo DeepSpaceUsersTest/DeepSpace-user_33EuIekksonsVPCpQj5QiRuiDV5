@@ -1,7 +1,11 @@
 {
-  "clock": 57,
-  "documentClock": 56,
-  "tombstones": {},
+  "clock": 58,
+  "documentClock": 58,
+  "tombstones": {
+    "shape:0sB4Y0d27Eka05kr": 58,
+    "shape:HsvOH-efmmp4Bnau": 58,
+    "shape:DjdGodZ-_Iq2Vs-g": 58
+  },
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
     "schemaVersion": 2,
@@ -42,75 +46,6 @@
     }
   },
   "documents": [
-    {
-      "state": {
-        "id": "shape:0sB4Y0d27Eka05kr",
-        "typeName": "shape",
-        "type": "canvas-link",
-        "parentId": "page:sTamNZmGUekKSeXgHyDK6",
-        "index": "a1",
-        "x": 765.6005859375,
-        "y": 217.685546875,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "props": {
-          "w": 200,
-          "h": 100,
-          "targetCanvasId": "room-3773b87e-a216-46cc-bebe-4aeb66a62d81",
-          "label": "New Subcanvas",
-          "linkType": "realfile"
-        }
-      },
-      "lastChangedClock": 36
-    },
-    {
-      "state": {
-        "id": "shape:HsvOH-efmmp4Bnau",
-        "typeName": "shape",
-        "type": "canvas-link",
-        "parentId": "page:sTamNZmGUekKSeXgHyDK6",
-        "index": "a1",
-        "x": 563.701171875,
-        "y": 195.8544921875,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "props": {
-          "w": 200,
-          "h": 100,
-          "targetCanvasId": "room-4016ec22-7c61-494a-bbe1-a05e8e3fe2d1",
-          "label": "New Subcanvas",
-          "linkType": "realfile"
-        }
-      },
-      "lastChangedClock": 25
-    },
-    {
-      "state": {
-        "id": "shape:DjdGodZ-_Iq2Vs-g",
-        "typeName": "shape",
-        "type": "canvas-link",
-        "parentId": "page:sTamNZmGUekKSeXgHyDK6",
-        "index": "a1",
-        "x": 951.640625,
-        "y": 249.3359375,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "props": {
-          "w": 200,
-          "h": 100,
-          "targetCanvasId": "room-decc9490-5b4e-49dd-8559-eecd3b814df3",
-          "label": "New Subcanvas",
-          "linkType": "realfile"
-        }
-      },
-      "lastChangedClock": 56
-    },
     {
       "state": {
         "meta": {},
