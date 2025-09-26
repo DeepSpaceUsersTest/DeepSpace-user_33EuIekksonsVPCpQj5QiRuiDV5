@@ -3,8 +3,8 @@
   "widgetId": "notepad-react-test_1758894716481",
   "templateHandle": "notepad-react-test",
   "position": {
-    "x": 515.4541015625,
-    "y": 376.3427734375
+    "x": 599.228515625,
+    "y": 229.9560546875
   },
   "size": {
     "w": 300,
@@ -20,5 +20,5 @@
   },
   "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
   "index": "a1",
-  "lastChangedClock": 3
+  "lastChangedClock": 59
 }

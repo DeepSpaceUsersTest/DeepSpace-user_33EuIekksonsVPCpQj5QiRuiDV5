@@ -2,8 +2,8 @@
   "parentCanvasId": "room-8e352380-c805-4f7f-b7c8-7e0fb80918cf",
   "linkShapeId": "shape:a5LseBrxaNWuwTSq",
   "position": {
-    "x": 720.625,
-    "y": 549.375
+    "x": 673.9453125,
+    "y": 774.3603515625
   },
   "size": {
     "w": 200,
@@ -17,5 +17,5 @@
   "meta": {},
   "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
   "index": "a1",
-  "lastChangedClock": 10
+  "lastChangedClock": 27
 }
