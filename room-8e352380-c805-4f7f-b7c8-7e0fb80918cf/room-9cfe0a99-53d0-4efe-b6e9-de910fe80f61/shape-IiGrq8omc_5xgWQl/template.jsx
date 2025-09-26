@@ -28,7 +28,7 @@ function NotepadWidget() {
       margin: 0,
       padding: '16px',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-      background: '#ffc0cb',
+      background: '#ffa500',
       display: 'flex',
       flexDirection: 'column',
       minHeight: '100vh',
