@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 function NotepadWidget() {
   // Use our injected storage hook - this will automatically re-render when storage changes
-  const [content, setContent] = useStorage('notepad-content', ' ');
+  const [content, setContent] = useStorage('notepad-content', 'SEX ');
   const textareaRef = useRef(null);
   
   // Handle content changes
