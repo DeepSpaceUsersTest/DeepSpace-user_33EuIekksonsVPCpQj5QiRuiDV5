@@ -1,6 +1,6 @@
 {
-  "clock": 78,
-  "documentClock": 78,
+  "clock": 81,
+  "documentClock": 81,
   "tombstones": {
     "shape:kThP32coCaj3P4cW": 75
   },
@@ -109,6 +109,29 @@
         }
       },
       "lastChangedClock": 75
+    },
+    {
+      "state": {
+        "id": "shape:n8rrscTsJwjJ6_t1",
+        "typeName": "shape",
+        "type": "canvas-link",
+        "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
+        "index": "a1",
+        "x": 720.625,
+        "y": 268.67889822566667,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "props": {
+          "w": 200,
+          "h": 100,
+          "targetCanvasId": "room-cda9e3d9-029e-41ce-8ac6-36daf62da7da",
+          "label": "New Subcanvas",
+          "linkType": "realfile"
+        }
+      },
+      "lastChangedClock": 81
     }
   ]
 }
