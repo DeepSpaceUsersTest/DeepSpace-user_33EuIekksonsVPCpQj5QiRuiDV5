@@ -68,64 +68,71 @@ async function setupHooks() {
     process.exit(1);
   }
 
-  // Force fresh download of all scripts
-  console.log('📥 Downloading fresh Miyagi scripts...');
-  if (fs.existsSync('download-and-run.js')) {
-    const { execSync } = require('child_process');
-    
-    // Remove existing .miyagi directory to force fresh downloads
-    if (fs.existsSync('.miyagi')) {
-      console.log('🗑️ Removing cached scripts to ensure fresh downloads...');
-      fs.rmSync('.miyagi', { recursive: true, force: true });
-    }
-    
-    // Download all required scripts in parallel
-    console.log('🔄 Downloading all scripts in parallel...');
-    const { spawn } = require('child_process');
-    
-    const scripts = ['compile.js', 'generate-canvas.js', 'unpack-canvas-state.js'];
-    
-    // Create parallel download promises
-    const downloadPromises = scripts.map(script => {
-      return new Promise((resolve, reject) => {
-        console.log(`📥 Starting download: ${script}`);
-        const child = spawn('node', ['download-and-run.js', script], { 
-          stdio: ['inherit', 'pipe', 'pipe'] 
-        });
-        
-        let stdout = '';
-        let stderr = '';
-        
-        child.stdout.on('data', (data) => {
-          stdout += data.toString();
-        });
-        
-        child.stderr.on('data', (data) => {
-          stderr += data.toString();
-        });
-        
-        child.on('close', (code) => {
-          if (code === 0) {
-            console.log(`✅ Downloaded: ${script}`);
-            resolve({ script, stdout });
-          } else {
-            console.error(`❌ Failed to download ${script}: ${stderr}`);
-            reject(new Error(`Download failed for ${script}: ${stderr}`));
-          }
+  // Check if scripts already exist
+  console.log('🔍 Checking for existing Miyagi scripts...');
+  const scripts = ['compile.js', 'generate-canvas.js', 'unpack-canvas-state.js'];
+  const missingScripts = scripts.filter(script => !fs.existsSync(path.join('.miyagi', script)));
+  
+  if (missingScripts.length > 0) {
+    console.log(`⚠️  Missing scripts: ${missingScripts.join(', ')}`);
+    console.log('📥 Downloading fresh Miyagi scripts...');
+    if (fs.existsSync('download-and-run.js')) {
+      const { execSync } = require('child_process');
+      
+      // Remove existing .miyagi directory to force fresh downloads
+      if (fs.existsSync('.miyagi')) {
+        console.log('🗑️ Removing cached scripts to ensure fresh downloads...');
+        fs.rmSync('.miyagi', { recursive: true, force: true });
+      }
+      
+      // Download all required scripts in parallel
+      console.log('🔄 Downloading all scripts in parallel...');
+      const { spawn } = require('child_process');
+      
+      // Create parallel download promises
+      const downloadPromises = scripts.map(script => {
+        return new Promise((resolve, reject) => {
+          console.log(`📥 Starting download: ${script}`);
+          const child = spawn('node', ['download-and-run.js', script], { 
+            stdio: ['inherit', 'pipe', 'pipe'] 
+          });
+          
+          let stdout = '';
+          let stderr = '';
+          
+          child.stdout.on('data', (data) => {
+            stdout += data.toString();
+          });
+          
+          child.stderr.on('data', (data) => {
+            stderr += data.toString();
+          });
+          
+          child.on('close', (code) => {
+            if (code === 0) {
+              console.log(`✅ Downloaded: ${script}`);
+              resolve({ script, stdout });
+            } else {
+              console.error(`❌ Failed to download ${script}: ${stderr}`);
+              reject(new Error(`Download failed for ${script}: ${stderr}`));
+            }
+          });
         });
       });
-    });
-    
-    // Wait for all downloads to complete
-    try {
-      await Promise.all(downloadPromises);
-      console.log('🎉 All scripts downloaded successfully in parallel!');
-    } catch (error) {
-      console.error('❌ Some downloads failed:', error.message);
-      throw error;
+      
+      // Wait for all downloads to complete
+      try {
+        await Promise.all(downloadPromises);
+        console.log('🎉 All scripts downloaded successfully in parallel!');
+      } catch (error) {
+        console.error('❌ Some downloads failed:', error.message);
+        throw error;
+      }
+    } else {
+      console.log('⚠️  download-and-run.js not found. Scripts will be downloaded on first hook run.');
     }
   } else {
-    console.log('⚠️  download-and-run.js not found. Scripts will be downloaded on first hook run.');
+    console.log('✅ All required scripts already exist, skipping download.');
   }
 
   // Write pre-commit hook
