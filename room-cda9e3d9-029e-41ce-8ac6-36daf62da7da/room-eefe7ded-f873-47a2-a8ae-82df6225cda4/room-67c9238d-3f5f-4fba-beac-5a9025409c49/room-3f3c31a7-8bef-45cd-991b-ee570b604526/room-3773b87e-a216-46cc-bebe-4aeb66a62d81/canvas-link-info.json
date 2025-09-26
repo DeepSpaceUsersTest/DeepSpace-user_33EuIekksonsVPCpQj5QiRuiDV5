@@ -1,0 +1,21 @@
+{
+  "parentCanvasId": "room-3f3c31a7-8bef-45cd-991b-ee570b604526",
+  "linkShapeId": "shape:0sB4Y0d27Eka05kr",
+  "position": {
+    "x": 765.6005859375,
+    "y": 217.685546875
+  },
+  "size": {
+    "w": 200,
+    "h": 100
+  },
+  "label": "New Subcanvas",
+  "linkType": "realfile",
+  "rotation": 0,
+  "opacity": 1,
+  "isLocked": false,
+  "meta": {},
+  "parentId": "page:sTamNZmGUekKSeXgHyDK6",
+  "index": "a1",
+  "lastChangedClock": 36
+}

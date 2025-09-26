@@ -1,17 +1,17 @@
 {
   "canvas": {
-    "roomId": "room-eaf3535e-75fb-413c-9681-43901753d8c8",
+    "roomId": "room-3773b87e-a216-46cc-bebe-4aeb66a62d81",
     "canvasMode": "freeform",
-    "canvasName": "DeepSpace",
+    "canvasName": "New Subcanvas",
     "gridSize": 10
   },
   "pages": [
     {
-      "id": "page:Vvc7WHBh75s1ku1va_Bu3",
+      "id": "page:L5L4fDSW5CBNQ12K9PSO2",
       "name": "Page 1",
       "index": "a1",
       "meta": {},
-      "lastChangedClock": 75
+      "lastChangedClock": 0
     }
   ],
   "schema": {
@@ -52,11 +52,9 @@
       "com.tldraw.binding.arrow": 1
     }
   },
-  "generatedAt": "2025-09-26T22:16:17.396Z",
-  "clock": 81,
-  "documentClock": 81,
-  "tombstones": {
-    "shape:kThP32coCaj3P4cW": 75
-  },
+  "generatedAt": "2025-09-26T22:16:17.404Z",
+  "clock": 3,
+  "documentClock": 3,
+  "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1
 }

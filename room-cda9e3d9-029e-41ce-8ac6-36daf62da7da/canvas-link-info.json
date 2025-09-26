@@ -1,0 +1,21 @@
+{
+  "parentCanvasId": "DeepSpace-user_33EuIekksonsVPCpQj5QiRuiDV5",
+  "linkShapeId": "shape:n8rrscTsJwjJ6_t1",
+  "position": {
+    "x": 720.625,
+    "y": 268.67889822566667
+  },
+  "size": {
+    "w": 200,
+    "h": 100
+  },
+  "label": "New Subcanvas",
+  "linkType": "realfile",
+  "rotation": 0,
+  "opacity": 1,
+  "isLocked": false,
+  "meta": {},
+  "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
+  "index": "a1",
+  "lastChangedClock": 81
+}
