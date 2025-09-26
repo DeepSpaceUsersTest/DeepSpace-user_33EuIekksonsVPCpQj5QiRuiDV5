@@ -1,6 +1,6 @@
 {
-  "clock": 10,
-  "documentClock": 10,
+  "clock": 57,
+  "documentClock": 57,
   "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
@@ -54,7 +54,7 @@
         "id": "document:document",
         "typeName": "document"
       },
-      "lastChangedClock": 10
+      "lastChangedClock": 12
     },
     {
       "state": {
@@ -64,7 +64,7 @@
         "index": "a1",
         "typeName": "page"
       },
-      "lastChangedClock": 0
+      "lastChangedClock": 12
     },
     {
       "state": {
@@ -78,7 +78,7 @@
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 4
+      "lastChangedClock": 12
     },
     {
       "state": {
@@ -87,8 +87,8 @@
         "type": "miyagi-widget",
         "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
         "index": "a1",
-        "x": 515.4541015625,
-        "y": 376.3427734375,
+        "x": 599.228515625,
+        "y": 229.9560546875,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
@@ -106,7 +106,7 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 3
+      "lastChangedClock": 57
     },
     {
       "state": {
@@ -115,8 +115,8 @@
         "type": "canvas-link",
         "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
         "index": "a1",
-        "x": 720.625,
-        "y": 549.375,
+        "x": 673.9453125,
+        "y": 774.3603515625,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
@@ -129,7 +129,7 @@
           "linkType": "realfile"
         }
       },
-      "lastChangedClock": 10
+      "lastChangedClock": 27
     }
   ]
 }
