@@ -1,6 +1,6 @@
 {
-  "clock": 67,
-  "documentClock": 67,
+  "clock": 72,
+  "documentClock": 72,
   "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
@@ -54,7 +54,7 @@
         "id": "document:document",
         "typeName": "document"
       },
-      "lastChangedClock": 67
+      "lastChangedClock": 68
     },
     {
       "state": {
@@ -64,7 +64,7 @@
         "index": "a1",
         "typeName": "page"
       },
-      "lastChangedClock": 15
+      "lastChangedClock": 68
     },
     {
       "state": {
@@ -74,14 +74,15 @@
             "notepad-content": "XXXAAAAAA"
           },
           "shape:BJ4Zbl779w9FHWh7": {
-            "__widget_config": "{\"roomId\":\"room-eaf3535e-75fb-413c-9681-43901753d8c8\",\"pageId\":\"page:Vvc7WHBh75s1ku1va_Bu3\",\"shapeId\":\"shape:BJ4Zbl779w9FHWh7\",\"templateHandle\":\"notepad-react-test\"}"
+            "__widget_config": "{\"roomId\":\"room-eaf3535e-75fb-413c-9681-43901753d8c8\",\"pageId\":\"page:Vvc7WHBh75s1ku1va_Bu3\",\"shapeId\":\"shape:BJ4Zbl779w9FHWh7\",\"templateHandle\":\"notepad-react-test\"}",
+            "notepad-content": "AS"
           }
         },
         "global": {},
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 4
+      "lastChangedClock": 72
     },
     {
       "state": {
@@ -109,7 +110,7 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 66
+      "lastChangedClock": 68
     },
     {
       "state": {
@@ -137,7 +138,7 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 54
+      "lastChangedClock": 68
     }
   ]
 }
