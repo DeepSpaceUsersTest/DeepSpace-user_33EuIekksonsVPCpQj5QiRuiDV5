@@ -1,6 +1,6 @@
 {
-  "clock": 9,
-  "documentClock": 9,
+  "clock": 25,
+  "documentClock": 25,
   "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
@@ -54,7 +54,7 @@
         "id": "document:document",
         "typeName": "document"
       },
-      "lastChangedClock": 9
+      "lastChangedClock": 15
     },
     {
       "state": {
@@ -64,21 +64,21 @@
         "index": "a1",
         "typeName": "page"
       },
-      "lastChangedClock": 0
+      "lastChangedClock": 15
     },
     {
       "state": {
         "widgets": {
           "shape:9KGt0O849QCLBN0H": {
             "__widget_config": "{\"roomId\":\"room-eaf3535e-75fb-413c-9681-43901753d8c8\",\"pageId\":\"page:Vvc7WHBh75s1ku1va_Bu3\",\"shapeId\":\"shape:9KGt0O849QCLBN0H\",\"templateHandle\":\"notepad-react-test\"}",
-            "notepad-content": "XXX"
+            "notepad-content": "XXXAAA"
           }
         },
         "global": {},
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 4
+      "lastChangedClock": 25
     },
     {
       "state": {
@@ -106,7 +106,7 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 4
+      "lastChangedClock": 15
     },
     {
       "state": {
@@ -129,7 +129,7 @@
           "linkType": "realfile"
         }
       },
-      "lastChangedClock": 5
+      "lastChangedClock": 15
     }
   ]
 }
