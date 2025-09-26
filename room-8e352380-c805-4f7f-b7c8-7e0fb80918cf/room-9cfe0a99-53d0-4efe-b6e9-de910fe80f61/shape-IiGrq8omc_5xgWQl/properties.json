@@ -1,0 +1,24 @@
+{
+  "shapeId": "shape:IiGrq8omc_5xgWQl",
+  "widgetId": "notepad-react-test_1758894729131",
+  "templateHandle": "notepad-react-test",
+  "position": {
+    "x": 434.345703125,
+    "y": 329.5166015625
+  },
+  "size": {
+    "w": 300,
+    "h": 200
+  },
+  "rotation": 0,
+  "opacity": 1,
+  "isLocked": false,
+  "color": "black",
+  "zoomScale": 1,
+  "meta": {
+    "initializationState": "ready"
+  },
+  "parentId": "page:QH_PXvB9YZXhdFfoB29vq",
+  "index": "a1",
+  "lastChangedClock": 3
+}

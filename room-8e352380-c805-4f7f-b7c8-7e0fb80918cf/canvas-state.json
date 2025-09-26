@@ -54,7 +54,7 @@
         "id": "document:document",
         "typeName": "document"
       },
-      "lastChangedClock": 2
+      "lastChangedClock": 10
     },
     {
       "state": {
@@ -68,29 +68,6 @@
     },
     {
       "state": {
-        "id": "shape:a5LseBrxaNWuwTSq",
-        "typeName": "shape",
-        "type": "canvas-link",
-        "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
-        "index": "a1",
-        "x": 720.625,
-        "y": 549.375,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "props": {
-          "w": 200,
-          "h": 100,
-          "targetCanvasId": "room-9cfe0a99-53d0-4efe-b6e9-de910fe80f61",
-          "label": "New Subcanvas",
-          "linkType": "realfile"
-        }
-      },
-      "lastChangedClock": 10
-    },
-    {
-      "state": {
         "widgets": {
           "shape:9bdOIc7W-1YsWqQH": {
             "__widget_config": "{\"roomId\":\"room-8e352380-c805-4f7f-b7c8-7e0fb80918cf\",\"pageId\":\"page:u2N-gZiKQLmzdrSLOCVJ6\",\"shapeId\":\"shape:9bdOIc7W-1YsWqQH\",\"templateHandle\":\"notepad-react-test\"}",
@@ -101,7 +78,7 @@
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 9
+      "lastChangedClock": 4
     },
     {
       "state": {
@@ -130,6 +107,29 @@
         }
       },
       "lastChangedClock": 3
+    },
+    {
+      "state": {
+        "id": "shape:a5LseBrxaNWuwTSq",
+        "typeName": "shape",
+        "type": "canvas-link",
+        "parentId": "page:u2N-gZiKQLmzdrSLOCVJ6",
+        "index": "a1",
+        "x": 720.625,
+        "y": 549.375,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "props": {
+          "w": 200,
+          "h": 100,
+          "targetCanvasId": "room-9cfe0a99-53d0-4efe-b6e9-de910fe80f61",
+          "label": "New Subcanvas",
+          "linkType": "realfile"
+        }
+      },
+      "lastChangedClock": 10
     }
   ]
 }
