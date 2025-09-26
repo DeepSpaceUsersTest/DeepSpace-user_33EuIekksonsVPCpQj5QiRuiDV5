@@ -46,7 +46,7 @@ function NotepadWidget() {
           fontWeight: 600,
           color: '#374151'
         }}>
-          📝 Quick Notes (React Test)
+          DONALDISGOD
         </div>
         <button
           onClick={clearNotes}
