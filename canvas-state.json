@@ -1,6 +1,6 @@
 {
-  "clock": 31,
-  "documentClock": 31,
+  "clock": 67,
+  "documentClock": 67,
   "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
@@ -90,8 +90,8 @@
         "type": "miyagi-widget",
         "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
         "index": "a1",
-        "x": 188.5693359375,
-        "y": 307.333984375,
+        "x": 349.365234375,
+        "y": 526.884765625,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
@@ -109,7 +109,7 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 15
+      "lastChangedClock": 66
     },
     {
       "state": {
@@ -118,8 +118,8 @@
         "type": "miyagi-widget",
         "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
         "index": "a1",
-        "x": 767.03125,
-        "y": 568.6474609375,
+        "x": 438.5302734375,
+        "y": 38.5107421875,
         "rotation": 0,
         "isLocked": false,
         "opacity": 1,
@@ -137,7 +137,30 @@
           "zoomScale": 1
         }
       },
-      "lastChangedClock": 31
+      "lastChangedClock": 54
+    },
+    {
+      "state": {
+        "id": "shape:wuk_8VpyetqCEBKm",
+        "typeName": "shape",
+        "type": "canvas-link",
+        "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
+        "index": "a1",
+        "x": 720.625,
+        "y": 38.6602851389307,
+        "rotation": 0,
+        "isLocked": false,
+        "opacity": 1,
+        "meta": {},
+        "props": {
+          "w": 200,
+          "h": 100,
+          "targetCanvasId": "room-9c4e71df-6d32-4478-9757-e7763c9afe61",
+          "label": "New Subcanvas",
+          "linkType": "realfile"
+        }
+      },
+      "lastChangedClock": 67
     }
   ]
 }
