@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 function NotepadWidget() {
   // Use our injected storage hook - this will automatically re-render when storage changes
-  const [content, setContent] = useStorage('notepad-content', 'SEX ');
+  const [content, setContent] = useStorage('notepad-content', '');
   const textareaRef = useRef(null);
   
   // Handle content changes
@@ -28,7 +28,7 @@ function NotepadWidget() {
       margin: 0,
       padding: '16px',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-      background: '#ffc0cb',
+      background: '#fffef7',
       display: 'flex',
       flexDirection: 'column',
       minHeight: '100vh',

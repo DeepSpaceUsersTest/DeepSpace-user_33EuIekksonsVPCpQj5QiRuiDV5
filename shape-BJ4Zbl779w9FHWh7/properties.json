@@ -1,10 +1,10 @@
 {
-  "shapeId": "shape:IiGrq8omc_5xgWQl",
-  "widgetId": "notepad-react-test_1758894729131",
+  "shapeId": "shape:BJ4Zbl779w9FHWh7",
+  "widgetId": "notepad-react-test_1758908177619",
   "templateHandle": "notepad-react-test",
   "position": {
-    "x": 434.345703125,
-    "y": 329.5166015625
+    "x": 438.5302734375,
+    "y": 38.5107421875
   },
   "size": {
     "w": 300,
@@ -18,7 +18,7 @@
   "meta": {
     "initializationState": "ready"
   },
-  "parentId": "page:QH_PXvB9YZXhdFfoB29vq",
+  "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
   "index": "a1",
-  "lastChangedClock": 3
+  "lastChangedClock": 54
 }
