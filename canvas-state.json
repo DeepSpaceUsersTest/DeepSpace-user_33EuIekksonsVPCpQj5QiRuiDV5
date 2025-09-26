@@ -54,7 +54,7 @@
         "id": "document:document",
         "typeName": "document"
       },
-      "lastChangedClock": 5
+      "lastChangedClock": 9
     },
     {
       "state": {
@@ -78,7 +78,7 @@
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 9
+      "lastChangedClock": 4
     },
     {
       "state": {
