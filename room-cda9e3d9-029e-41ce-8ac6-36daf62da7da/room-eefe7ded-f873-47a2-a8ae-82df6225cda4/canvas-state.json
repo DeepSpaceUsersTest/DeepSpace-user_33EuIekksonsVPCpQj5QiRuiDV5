@@ -1,6 +1,6 @@
 {
-  "clock": 3,
-  "documentClock": 3,
+  "clock": 9,
+  "documentClock": 9,
   "tombstones": {},
   "tombstoneHistoryStartsAtClock": 1,
   "schema": {
@@ -70,14 +70,15 @@
       "state": {
         "widgets": {
           "shape:mo_VVxMq8Er4pWqz": {
-            "__widget_config": "{\"roomId\":\"room-eefe7ded-f873-47a2-a8ae-82df6225cda4\",\"pageId\":\"page:aVkW9R_pVAqI3NZz1zJxz\",\"shapeId\":\"shape:mo_VVxMq8Er4pWqz\",\"templateHandle\":\"notepad-react-test\"}"
+            "__widget_config": "{\"roomId\":\"room-eefe7ded-f873-47a2-a8ae-82df6225cda4\",\"pageId\":\"page:aVkW9R_pVAqI3NZz1zJxz\",\"shapeId\":\"shape:mo_VVxMq8Er4pWqz\",\"templateHandle\":\"notepad-react-test\"}",
+            "notepad-content": "dfdsf"
           }
         },
         "global": {},
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 3
+      "lastChangedClock": 9
     },
     {
       "state": {
