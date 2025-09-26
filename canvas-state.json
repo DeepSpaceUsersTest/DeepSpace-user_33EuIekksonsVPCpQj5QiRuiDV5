@@ -78,7 +78,7 @@
         "id": "canvas_storage:main",
         "typeName": "canvas_storage"
       },
-      "lastChangedClock": 4
+      "lastChangedClock": 3
     },
     {
       "state": {
@@ -104,29 +104,6 @@
           "jsxContent": "import React, { useRef } from 'react';\n\nfunction NotepadWidget() {\n  // Use our injected storage hook - this will automatically re-render when storage changes\n  const [content, setContent] = useStorage('notepad-content', 'dhjksdjshgfgfk');\n  const textareaRef = useRef(null);\n  \n  // Handle content changes\n  const handleContentChange = (e) => {\n    setContent(e.target.value);\n  };\n  \n  // Clear notes\n  const clearNotes = () => {\n    if (confirm('Clear all notes?')) {\n      setContent('');\n      textareaRef.current?.focus();\n    }\n  };\n  \n  // Auto-focus on mount\n  React.useEffect(() => {\n    setTimeout(() => textareaRef.current?.focus(), 100);\n  }, []);\n  \n  return (\n    <div style={{\n      margin: 0,\n      padding: '16px',\n      fontFamily: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif',\n      background: '#ff0000',\n      display: 'flex',\n      flexDirection: 'column',\n      minHeight: '100vh',\n      boxSizing: 'border-box'\n    }}>\n      <div style={{\n        display: 'flex',\n        alignItems: 'center',\n        marginBottom: '12px',\n        paddingBottom: '8px',\n        borderBottom: '1px solid #e5e7eb'\n      }}>\n        <div style={{\n          fontSize: '16px',\n          fontWeight: 600,\n          color: '#374151'\n        }}>\n          DONALDISGOD\n        </div>\n        <button\n          onClick={clearNotes}\n          style={{\n            marginLeft: 'auto',\n            padding: '4px 8px',\n            border: 'none',\n            borderRadius: '4px',\n            background: '#f3f4f6',\n            color: '#6b7280',\n            fontSize: '12px',\n            cursor: 'pointer'\n          }}\n        >\n          Clear\n        </button>\n      </div>\n      \n      <textarea\n        ref={textareaRef}\n        value={content}\n        onChange={handleContentChange}\n        placeholder=\"Start typing your notes here...\"\n        style={{\n          flex: 1,\n          border: 'none',\n          outline: 'none',\n          resize: 'none',\n          background: 'transparent',\n          fontFamily: 'inherit',\n          fontSize: '14px',\n          lineHeight: 1.5,\n          color: '#374151',\n          minHeight: '200px'\n        }}\n      />\n    </div>\n  );\n}\n\n// Export the widget component - the injection script will handle rendering\nexport default NotepadWidget;\n",
           "color": "black",
           "zoomScale": 1
-        }
-      },
-      "lastChangedClock": 15
-    },
-    {
-      "state": {
-        "id": "shape:ZMu411sOvIFKYwvc",
-        "typeName": "shape",
-        "type": "canvas-link",
-        "parentId": "page:Vvc7WHBh75s1ku1va_Bu3",
-        "index": "a1",
-        "x": 720.625,
-        "y": 549.375,
-        "rotation": 0,
-        "isLocked": false,
-        "opacity": 1,
-        "meta": {},
-        "props": {
-          "w": 200,
-          "h": 100,
-          "targetCanvasId": "room-8e352380-c805-4f7f-b7c8-7e0fb80918cf",
-          "label": "New Subcanvas",
-          "linkType": "realfile"
         }
       },
       "lastChangedClock": 15
